@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './headercomponent';
+import Pagination from './paginationcomponent';
+import ProductCard from './productcardcomponent';
+import ProductListing from './productlistingpage';
+import { Router } from 'react-router-dom';
+import ThankYouPage from './thankyoupage';
+
 
 function App() {
   return (
